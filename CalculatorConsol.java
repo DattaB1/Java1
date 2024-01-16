@@ -1,8 +1,10 @@
 import java.util.Scanner;
 
-public class CalculatorConsol {
+public class CalculatorConsol 
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         int num1,num2,result;
         char op;
         Scanner sc=new Scanner(System.in);
@@ -40,12 +42,13 @@ public class CalculatorConsol {
             System.out.println("Error: Division by zero is not allowed.");
             return;
          }
-         else{
-            System.out.println("Error: Invalid operator.");
-            return;
-         }
+         else
+         {
+            System.out.println("Error: Invalid operator."); 
+                     
+        }
+        System.out.println("Result::"+result); 
+    } 
+       
         
-        
-         System.out.println("Result::"+result);
-    }
 }
