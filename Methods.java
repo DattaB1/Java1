@@ -1,3 +1,5 @@
+// this is all the for primitive data types
+
 public class Methods 
 /*{
     int add(int a,int b){
@@ -12,7 +14,7 @@ public class Methods
     }
     
 }*/
-{
+/*{
     int cube(int a)
     {
         int b=a*a*a;
@@ -21,9 +23,36 @@ public class Methods
     public static void main(String[] args) {
         int x=new Methods().cube(6);
         System.out.println(x);
+
         //using object refernce
         Methods m=new Methods();
         int y=m.cube(5);
         System.out.println(y);
     }
+}*/
+{
+    
+    //find max
+    int max(int a,int b)
+    {
+        if(a>b)
+        {
+            return a;
+        }
+        else
+            return b;
+        
+    }
+    public static void main(String[] args) {
+        int x=new Methods().max(10, 25);
+        System.out.println(x);
+
+        Methods m=new Methods();
+        int y=m.max(45, 25);
+        System.out.println(y);
+        
+    }
+
 }
+
+
