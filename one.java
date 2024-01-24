@@ -33,7 +33,7 @@ public class one
 
 // in this example there is local and instnce varaible are present..so if we want to access instance variable.then this keyword must
   //be important.and 2nd local varaible is directly assess
-  int x=10;                     //instance variable
+  /*int x=10;                     //instance variable
   public void show()
   {
     int x=20;                      //local varaible
@@ -43,7 +43,18 @@ public class one
   public static void main(String[] args) {
     one obj=new one();
     obj.show();
-  }
+  }*/
 
-    
+
+
+  //static method does not support this keyword in anyway.
+  int x=10;
+  static void show()
+  {
+    System.out.println(this.x);  <== erroor comes
+  }
+  public static void main(String[] args) {
+    one obj=new one();
+    obj.show();
+  }    
 }
