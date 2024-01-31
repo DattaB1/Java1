@@ -1,4 +1,7 @@
 //Just Removed the comment which statement want to excute
+
+// Single Inheritance Ex
+
 class InherA
 {
 	int x=10;    //instance variable
