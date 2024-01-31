@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+/* 
 public class CalculatorConsol 
 {
 
@@ -51,4 +51,4 @@ public class CalculatorConsol
     } 
        
         
-}
+}*/
