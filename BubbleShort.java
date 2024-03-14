@@ -5,7 +5,7 @@ public class BubbleShort
     for(int i=0; i<arr.length;i++){
       System.out.print(arr[i]+" ");
     }
-    System.out.println();
+    System.out.println();0
   }
   
   public static void main(String[] args) {
