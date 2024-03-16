@@ -1,6 +1,6 @@
 package PatternsPGS;
 
-public class patterns1 
+public class starpatterns1 
 {
   public static void main(String[] args) {
 
