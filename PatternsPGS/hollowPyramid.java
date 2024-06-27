@@ -3,11 +3,9 @@ package PatternsPGS;
 public class hollowPyramid {
   public static void main(String[] args)
   {
-
     //for row
     for(int i=5;i>=1;i--)
     {
-
         //space
           for(int j=5;j>i;j--)
           {
@@ -26,9 +24,6 @@ public class hollowPyramid {
               System.out.print("*");
             }
           }
-
-
-
           //half pyramid start with 2
          /* 
          for(int m=2;m<=i;m++)
